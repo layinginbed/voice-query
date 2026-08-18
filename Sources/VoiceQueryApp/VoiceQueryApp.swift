@@ -53,7 +53,7 @@ struct VoiceQueryApp: App {
             MenuContent(model: model, settings: settings)
         } label: {
             Image(systemName: model.state.isRecording ? "mic.fill" : "waveform")
-                .accessibilityLabel("VoiceQuery")
+                .accessibilityLabel("SayQuery")
         }
         .menuBarExtraStyle(.window)
 

@@ -112,7 +112,7 @@ public enum VoiceQueryError: LocalizedError, Sendable {
         case .accessibilityPermissionMissing:
             return "缺少辅助功能权限，无法写入其他应用。"
         case .secureInputField:
-            return "安全输入框中已禁用 VoiceQuery。"
+            return "安全输入框中已禁用 SayQuery。"
         case .noFocusedInput:
             return "没有找到当前输入框。"
         }
