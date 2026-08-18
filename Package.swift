@@ -3,13 +3,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "VoiceQueryLatencyPrototype",
+    name: "SayQuery",
     platforms: [
         .macOS(.v14)
     ],
     products: [
-        .executable(name: "VoiceQuery", targets: ["VoiceQueryApp"]),
-        .executable(name: "VoiceQueryChecks", targets: ["VoiceQueryChecks"])
+        .executable(name: "SayQuery", targets: ["VoiceQueryApp"]),
+        .executable(name: "SayQueryChecks", targets: ["VoiceQueryChecks"])
     ],
     targets: [
         .target(

@@ -95,8 +95,8 @@ private func runChecks() throws {
 
 do {
     try runChecks()
-    print("VoiceQueryChecks: all checks passed")
+    print("SayQueryChecks: all checks passed")
 } catch {
-    fputs("VoiceQueryChecks failed: \(error)\n", stderr)
+    fputs("SayQueryChecks failed: \(error)\n", stderr)
     exit(1)
 }

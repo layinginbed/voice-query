@@ -11,7 +11,7 @@ struct MenuContent: View {
             HStack {
                 Image(systemName: model.state.isRecording ? "mic.fill" : "waveform")
                     .foregroundStyle(model.state.isRecording ? Color.red : Color.accentColor)
-                Text("VoiceQuery")
+                Text("SayQuery")
                     .font(.headline)
                 Spacer()
                 Text("⌥Space")
